@@ -2,4 +2,3 @@ flask
 pytest
 pylint
 requests
-sqlite3
