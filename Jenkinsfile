@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo/vulnerable-python-project.git'
-            }
+                git branch: 'main', url: 'https://github.com/jkbarathkumar/devsecops-sonarqube.git'            }
         }
         
         stage('Build') {
